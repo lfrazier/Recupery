@@ -16,6 +16,7 @@
 		A53591951C822DAD0014EE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */; };
 		A53591A01C822DAD0014EE5C /* RecuperyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A535919F1C822DAD0014EE5C /* RecuperyTests.m */; };
 		A53591AB1C822DAD0014EE5C /* RecuperyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */; };
+		A53591BA1C8260E70014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591B91C8260E70014EE5C /* SurveyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A53591A61C822DAD0014EE5C /* RecuperyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecuperyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecuperyUITests.m; sourceTree = "<group>"; };
 		A53591AC1C822DAD0014EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53591B81C8260E70014EE5C /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		A53591B91C8260E70014EE5C /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */,
 				A53591961C822DAD0014EE5C /* Info.plist */,
 				A53591821C822DAD0014EE5C /* Supporting Files */,
+				A53591B81C8260E70014EE5C /* SurveyViewController.h */,
+				A53591B91C8260E70014EE5C /* SurveyViewController.m */,
 			);
 			path = Recupery;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */,
 				A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */,
 				A53591841C822DAD0014EE5C /* main.m in Sources */,
+				A53591BA1C8260E70014EE5C /* SurveyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +508,7 @@
 				A53591B11C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53591B21C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				A53591B41C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53591B51C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				A53591B71C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
