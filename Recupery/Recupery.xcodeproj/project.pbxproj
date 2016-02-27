@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53591841C822DAD0014EE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591831C822DAD0014EE5C /* main.m */; };
+		A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591861C822DAD0014EE5C /* AppDelegate.m */; };
+		A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591891C822DAD0014EE5C /* FirstViewController.m */; };
+		A535918D1C822DAD0014EE5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A535918C1C822DAD0014EE5C /* SecondViewController.m */; };
+		A53591901C822DAD0014EE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A535918E1C822DAD0014EE5C /* Main.storyboard */; };
+		A53591921C822DAD0014EE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53591911C822DAD0014EE5C /* Assets.xcassets */; };
+		A53591951C822DAD0014EE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */; };
+		A53591A01C822DAD0014EE5C /* RecuperyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A535919F1C822DAD0014EE5C /* RecuperyTests.m */; };
+		A53591AB1C822DAD0014EE5C /* RecuperyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A535919C1C822DAD0014EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53591771C822DAD0014EE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A535917E1C822DAD0014EE5C;
+			remoteInfo = Recupery;
+		};
+		A53591A71C822DAD0014EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53591771C822DAD0014EE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A535917E1C822DAD0014EE5C;
+			remoteInfo = Recupery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A535917F1C822DAD0014EE5C /* Recupery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recupery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53591831C822DAD0014EE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53591851C822DAD0014EE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53591861C822DAD0014EE5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53591881C822DAD0014EE5C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A53591891C822DAD0014EE5C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A535918B1C822DAD0014EE5C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A535918C1C822DAD0014EE5C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A535918F1C822DAD0014EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53591911C822DAD0014EE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53591941C822DAD0014EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53591961C822DAD0014EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A535919B1C822DAD0014EE5C /* RecuperyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecuperyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A535919F1C822DAD0014EE5C /* RecuperyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecuperyTests.m; sourceTree = "<group>"; };
+		A53591A11C822DAD0014EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53591A61C822DAD0014EE5C /* RecuperyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecuperyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecuperyUITests.m; sourceTree = "<group>"; };
+		A53591AC1C822DAD0014EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A535917C1C822DAD0014EE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591981C822DAD0014EE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591A31C822DAD0014EE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53591761C822DAD0014EE5C = {
+			isa = PBXGroup;
+			children = (
+				A53591811C822DAD0014EE5C /* Recupery */,
+				A535919E1C822DAD0014EE5C /* RecuperyTests */,
+				A53591A91C822DAD0014EE5C /* RecuperyUITests */,
+				A53591801C822DAD0014EE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53591801C822DAD0014EE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A535917F1C822DAD0014EE5C /* Recupery.app */,
+				A535919B1C822DAD0014EE5C /* RecuperyTests.xctest */,
+				A53591A61C822DAD0014EE5C /* RecuperyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53591811C822DAD0014EE5C /* Recupery */ = {
+			isa = PBXGroup;
+			children = (
+				A53591851C822DAD0014EE5C /* AppDelegate.h */,
+				A53591861C822DAD0014EE5C /* AppDelegate.m */,
+				A53591881C822DAD0014EE5C /* FirstViewController.h */,
+				A53591891C822DAD0014EE5C /* FirstViewController.m */,
+				A535918B1C822DAD0014EE5C /* SecondViewController.h */,
+				A535918C1C822DAD0014EE5C /* SecondViewController.m */,
+				A535918E1C822DAD0014EE5C /* Main.storyboard */,
+				A53591911C822DAD0014EE5C /* Assets.xcassets */,
+				A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */,
+				A53591961C822DAD0014EE5C /* Info.plist */,
+				A53591821C822DAD0014EE5C /* Supporting Files */,
+			);
+			path = Recupery;
+			sourceTree = "<group>";
+		};
+		A53591821C822DAD0014EE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53591831C822DAD0014EE5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A535919E1C822DAD0014EE5C /* RecuperyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A535919F1C822DAD0014EE5C /* RecuperyTests.m */,
+				A53591A11C822DAD0014EE5C /* Info.plist */,
+			);
+			path = RecuperyTests;
+			sourceTree = "<group>";
+		};
+		A53591A91C822DAD0014EE5C /* RecuperyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */,
+				A53591AC1C822DAD0014EE5C /* Info.plist */,
+			);
+			path = RecuperyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A535917E1C822DAD0014EE5C /* Recupery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53591AF1C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "Recupery" */;
+			buildPhases = (
+				A535917B1C822DAD0014EE5C /* Sources */,
+				A535917C1C822DAD0014EE5C /* Frameworks */,
+				A535917D1C822DAD0014EE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recupery;
+			productName = Recupery;
+			productReference = A535917F1C822DAD0014EE5C /* Recupery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A535919A1C822DAD0014EE5C /* RecuperyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53591B21C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyTests" */;
+			buildPhases = (
+				A53591971C822DAD0014EE5C /* Sources */,
+				A53591981C822DAD0014EE5C /* Frameworks */,
+				A53591991C822DAD0014EE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A535919D1C822DAD0014EE5C /* PBXTargetDependency */,
+			);
+			name = RecuperyTests;
+			productName = RecuperyTests;
+			productReference = A535919B1C822DAD0014EE5C /* RecuperyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53591A51C822DAD0014EE5C /* RecuperyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53591B51C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyUITests" */;
+			buildPhases = (
+				A53591A21C822DAD0014EE5C /* Sources */,
+				A53591A31C822DAD0014EE5C /* Frameworks */,
+				A53591A41C822DAD0014EE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53591A81C822DAD0014EE5C /* PBXTargetDependency */,
+			);
+			name = RecuperyUITests;
+			productName = RecuperyUITests;
+			productReference = A53591A61C822DAD0014EE5C /* RecuperyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53591771C822DAD0014EE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Recupery;
+				TargetAttributes = {
+					A535917E1C822DAD0014EE5C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A535919A1C822DAD0014EE5C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A535917E1C822DAD0014EE5C;
+					};
+					A53591A51C822DAD0014EE5C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A535917E1C822DAD0014EE5C;
+					};
+				};
+			};
+			buildConfigurationList = A535917A1C822DAD0014EE5C /* Build configuration list for PBXProject "Recupery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53591761C822DAD0014EE5C;
+			productRefGroup = A53591801C822DAD0014EE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A535917E1C822DAD0014EE5C /* Recupery */,
+				A535919A1C822DAD0014EE5C /* RecuperyTests */,
+				A53591A51C822DAD0014EE5C /* RecuperyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A535917D1C822DAD0014EE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53591951C822DAD0014EE5C /* LaunchScreen.storyboard in Resources */,
+				A53591921C822DAD0014EE5C /* Assets.xcassets in Resources */,
+				A53591901C822DAD0014EE5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591991C822DAD0014EE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591A41C822DAD0014EE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A535917B1C822DAD0014EE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A535918D1C822DAD0014EE5C /* SecondViewController.m in Sources */,
+				A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */,
+				A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */,
+				A53591841C822DAD0014EE5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591971C822DAD0014EE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53591A01C822DAD0014EE5C /* RecuperyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53591A21C822DAD0014EE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53591AB1C822DAD0014EE5C /* RecuperyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A535919D1C822DAD0014EE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A535917E1C822DAD0014EE5C /* Recupery */;
+			targetProxy = A535919C1C822DAD0014EE5C /* PBXContainerItemProxy */;
+		};
+		A53591A81C822DAD0014EE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A535917E1C822DAD0014EE5C /* Recupery */;
+			targetProxy = A53591A71C822DAD0014EE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A535918E1C822DAD0014EE5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A535918F1C822DAD0014EE5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53591941C822DAD0014EE5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53591AD1C822DAD0014EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53591AE1C822DAD0014EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53591B01C822DAD0014EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recupery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.Recupery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A53591B11C822DAD0014EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recupery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.Recupery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A53591B31C822DAD0014EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecuperyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.RecuperyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recupery.app/Recupery";
+			};
+			name = Debug;
+		};
+		A53591B41C822DAD0014EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RecuperyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.RecuperyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recupery.app/Recupery";
+			};
+			name = Release;
+		};
+		A53591B61C822DAD0014EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecuperyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.RecuperyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Recupery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A53591B71C822DAD0014EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RecuperyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbkhack.Recupery.RecuperyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Recupery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A535917A1C822DAD0014EE5C /* Build configuration list for PBXProject "Recupery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53591AD1C822DAD0014EE5C /* Debug */,
+				A53591AE1C822DAD0014EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53591AF1C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "Recupery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53591B01C822DAD0014EE5C /* Debug */,
+				A53591B11C822DAD0014EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53591B21C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53591B31C822DAD0014EE5C /* Debug */,
+				A53591B41C822DAD0014EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A53591B51C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53591B61C822DAD0014EE5C /* Debug */,
+				A53591B71C822DAD0014EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53591771C822DAD0014EE5C /* Project object */;
+}
