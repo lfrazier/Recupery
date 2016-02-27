@@ -274,59 +274,6 @@
             </objects>
             <point key="canvasLocation" x="1318" y="767"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="jPu-El-YhG">
-            <objects>
-                <viewController id="pGG-eg-6fo" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zry-ao-NBa"/>
-                        <viewControllerLayoutGuide type="bottom" id="caI-VX-weT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uYx-s6-aZj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9m-iF-bdx">
-                                <rect key="frame" x="274" y="288" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Wi1-sP-rpb" kind="showDetail" id="bZz-Ta-B41"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NI3-j3-czb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2094" y="791"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="goj-qP-4z2">
-            <objects>
-                <viewController id="Wi1-sP-rpb" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bm9-as-ciT"/>
-                        <viewControllerLayoutGuide type="bottom" id="JZN-cR-fDH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bFU-uq-yvY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Screen 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3af-bY-uML">
-                                <rect key="frame" x="252" y="290" width="69" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y5N-UT-OvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2774" y="771"/>
-        </scene>
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>

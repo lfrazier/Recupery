@@ -17,6 +17,7 @@
 		A53591A01C822DAD0014EE5C /* RecuperyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A535919F1C822DAD0014EE5C /* RecuperyTests.m */; };
 		A53591AB1C822DAD0014EE5C /* RecuperyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591AA1C822DAD0014EE5C /* RecuperyUITests.m */; };
 		A53591BA1C8260E70014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591B91C8260E70014EE5C /* SurveyViewController.m */; };
+		A53591BD1C8267110014EE5C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591BC1C8267110014EE5C /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		A53591AC1C822DAD0014EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53591B81C8260E70014EE5C /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
 		A53591B91C8260E70014EE5C /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		A53591BB1C8267110014EE5C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A53591BC1C8267110014EE5C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				A53591821C822DAD0014EE5C /* Supporting Files */,
 				A53591B81C8260E70014EE5C /* SurveyViewController.h */,
 				A53591B91C8260E70014EE5C /* SurveyViewController.m */,
+				A53591BB1C8267110014EE5C /* LoginViewController.h */,
+				A53591BC1C8267110014EE5C /* LoginViewController.m */,
 			);
 			path = Recupery;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			files = (
 				A535918D1C822DAD0014EE5C /* SecondViewController.m in Sources */,
 				A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */,
+				A53591BD1C8267110014EE5C /* LoginViewController.m in Sources */,
 				A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */,
 				A53591841C822DAD0014EE5C /* main.m in Sources */,
 				A53591BA1C8260E70014EE5C /* SurveyViewController.m in Sources */,
