@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891C7EE81C8254F200B85DE2 /* RECWarmWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C7EE71C8254F200B85DE2 /* RECWarmWelcomeViewController.m */; };
+		891C7EEB1C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C7EEA1C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.m */; };
 		A53591841C822DAD0014EE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591831C822DAD0014EE5C /* main.m */; };
 		A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591861C822DAD0014EE5C /* AppDelegate.m */; };
 		A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591891C822DAD0014EE5C /* FirstViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		891C7EE61C8254F200B85DE2 /* RECWarmWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECWarmWelcomeViewController.h; sourceTree = "<group>"; };
+		891C7EE71C8254F200B85DE2 /* RECWarmWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECWarmWelcomeViewController.m; sourceTree = "<group>"; };
+		891C7EE91C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECWarmWelcomeSlideViewController.h; sourceTree = "<group>"; };
+		891C7EEA1C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECWarmWelcomeSlideViewController.m; sourceTree = "<group>"; };
 		A535917F1C822DAD0014EE5C /* Recupery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recupery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53591831C822DAD0014EE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A53591851C822DAD0014EE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 				A53591931C822DAD0014EE5C /* LaunchScreen.storyboard */,
 				A53591961C822DAD0014EE5C /* Info.plist */,
 				A53591821C822DAD0014EE5C /* Supporting Files */,
+				891C7EE61C8254F200B85DE2 /* RECWarmWelcomeViewController.h */,
+				891C7EE71C8254F200B85DE2 /* RECWarmWelcomeViewController.m */,
+				891C7EE91C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.h */,
+				891C7EEA1C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.m */,
 			);
 			path = Recupery;
 			sourceTree = "<group>";
@@ -276,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A535918D1C822DAD0014EE5C /* SecondViewController.m in Sources */,
+				891C7EEB1C82571C00B85DE2 /* RECWarmWelcomeSlideViewController.m in Sources */,
 				A53591871C822DAD0014EE5C /* AppDelegate.m in Sources */,
+				891C7EE81C8254F200B85DE2 /* RECWarmWelcomeViewController.m in Sources */,
 				A535918A1C822DAD0014EE5C /* FirstViewController.m in Sources */,
 				A53591841C822DAD0014EE5C /* main.m in Sources */,
 			);
@@ -502,6 +514,7 @@
 				A53591B11C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53591B21C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				A53591B41C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53591B51C822DAD0014EE5C /* Build configuration list for PBXNativeTarget "RecuperyUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				A53591B71C822DAD0014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
